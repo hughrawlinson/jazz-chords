@@ -1,7 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Chord, Note } from 'tonal';
 
-import { withChannel, KeyNumber, Velocity, Duration } from './midimessage/index';
+import {
+  withChannel,
+  KeyNumber,
+  Velocity,
+  Duration,
+  uint7,
+  clampToUint7
+} from './midimessage/index';
 
 const notes = withChannel(0);
 
@@ -18,7 +26,10 @@ navigator.requestMIDIAccess().catch(console.log).then(midiAccess => {
   if (midiAccess) {
     midiAccess.outputs.forEach((port, key) => {
       const notePlayer = withPort(port);
-      notePlayer.playNote(60, 127, 250);
+      console.log(Chord.intervals("Asus4"));
+      Chord.notes("Asus4").map(n => `${n}4`).forEach(note => {
+        notePlayer.playNote(clampToUint7(Note.midi(note) || 0), 127, 250);
+      });
     });
   }
 });
