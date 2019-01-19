@@ -7,9 +7,8 @@ import {
   KeyNumber,
   Velocity,
   Duration,
-  uint7,
   clampToUint7
-} from './midimessage/index';
+} from '@hughrawlinson/midimessage';
 
 const notes = withChannel(0);
 
