@@ -36,7 +36,7 @@ export type Duration = number;
 
 type ControllerNumberOrChannelModeMessage = ControllerNumber | ChannelModeMessage;
 
-type MidiByteArray = number[];
+export type MidiByteArray = number[];
 
 interface MidiMessage {
   noteOn(k: KeyNumber, v: Velocity): MidiByteArray

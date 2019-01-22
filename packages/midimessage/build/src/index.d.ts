@@ -15,7 +15,7 @@ declare type PressureValue = uint7;
 declare type ControllerValue = uint7;
 export declare type Duration = number;
 declare type ControllerNumberOrChannelModeMessage = ControllerNumber | ChannelModeMessage;
-declare type MidiByteArray = number[];
+export declare type MidiByteArray = number[];
 interface MidiMessage {
     noteOn(k: KeyNumber, v: Velocity): MidiByteArray;
     noteOff(k: KeyNumber, v: Velocity): MidiByteArray;
