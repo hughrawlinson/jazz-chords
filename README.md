@@ -1,5 +1,7 @@
 # Jazz Chords
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hughrawlinson/jazz-chords.svg)](https://greenkeeper.io/)
+
 An attempt to play some generative Jazz chord progressions over midi from the browser.
 
 I should really learn how Jazz chord progressions work.
