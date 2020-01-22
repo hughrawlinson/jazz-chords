@@ -8,7 +8,7 @@
     "@types/node": "^13.1.0",
     "@types/react": "^16.7.20",
     "@types/react-dom": "^16.0.11",
-    "@types/webmidi": "^2.0.2",
+    "@types/webmidi": "^2.0.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "3.3.0",
