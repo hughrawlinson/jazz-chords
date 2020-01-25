@@ -16,7 +16,8 @@ enum ChannelModeMessage {
 }
 
 export function clampToUint7(n: number): uint7 {
-  return n < 0 ? 0 : n > 127 ? 127 : n as uint7;
+  const roundN = Math.floor(n);
+  return roundN < 0 ? 0 : roundN > 127 ? 127 : roundN as uint7;
 }
 
 // Apparently I'm not kidding.
