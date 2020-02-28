@@ -9,7 +9,7 @@
     "@types/react": "^16.7.20",
     "@types/react-dom": "^16.0.11",
     "@types/webmidi": "^2.0.2",
-    "react": "^16.7.0",
+    "react": "^16.13.0",
     "react-dom": "^16.7.0",
     "react-scripts": "3.4.0",
     "tonal": "^2.1.2",
