@@ -5,7 +5,7 @@
   "dependencies": {
     "@hughrawlinson/midimessage": "file:../packages/midimessage",
     "@types/jest": "^26.0.0",
-    "@types/node": "^14.0.1",
+    "@types/node": "^15.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/webmidi": "^2.0.2",
