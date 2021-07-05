@@ -3527,9 +3527,9 @@
     source-map "^0.6.1"
 
 "@types/webmidi@^2.0.2":
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/@types/webmidi/-/webmidi-2.0.4.tgz#d1bb7287d59cc350333d225ce8b3ad4e54c5e6da"
-  integrity sha512-ouA837zUpSzURsUGvcnay6JwUz2B/UoJP3Lkacnz60y+rul8/auVOFS9LSO6v0gdNbGvRkbHEpayD8PbO7IKhw==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@types/webmidi/-/webmidi-2.0.5.tgz#fe287fc4d157285fb3dd5e154cfb02c723beafa4"
+  integrity sha512-LtAZySewD8nq1PlOWSPbA6SK3yUpD1p61Q7ck6b/RxWJTUVZIlZOq+rfSzy80pxFPs7DKO5gvz74bxI/pcbwMA==
 
 "@types/webpack-sources@*":
   version "2.0.0"
